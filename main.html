@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style type="text/css">
+	body{
+		margin: 0;
+		padding: 0;
+		background-color:#041704;
+		font-family: sans-serif;
+
+	}
+	#header{margin-top:-22px;
+		height:130px;
+		text-align: center;
+		background-color:#4d4d00;
+		color: white;
+		/*background-image: linear-gradient(to top ,red ,blue ,green  );*/
+	}
+	nav{
+		background-color:green;
+		height: 38px;
+		background-image: linear-gradient(to top ,red ,yellow );
+	}
+	nav a{
+		float: left;
+		padding-top: 5px;
+		padding-bottom: 15px;
+		padding-right: 50px;
+		padding-left: 50px;
+		text-decoration: none;
+		text-shadow: black;
+	}
+	nav a:hover{
+		background-color:black;
+		color: white;
+		text-shadow: brown;
+	}
+	nav input[type=text]
+	{
+		text-align:left;
+		float: right;
+		height: 32px; 
+		background-color:#1d4c04;
+		color: white;
+
+
+	}
+	.offer1{
+		background-color: #0c5f57;
+		height: 90px;
+		margin-top: 0px;
+		width: 50%;
+		color: white;
+
+
+	}
+	.offer1 h1{
+margin-top: 0px;
+
+	}
+	.offer2{
+		background-color:#0c5f57;
+		height: 90px;
+		margin-top: -90px;
+		width: 50%;
+		float: right;
+		color: white;
+
+
+	}
+	.offer2 h1{
+margin-top: 0px;
+
+
+	}
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height: 8px;
+  text-align: right;
+  margin-top: -33px;
+  text-decoration: none;
+ 
+  float: right;
+ 
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  /*margin: -33px;*/
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+	
+	.container{
+		width: 1000px;
+		min-height: 600px;
+		display: flex;
+		margin: 0px auto 0;
+		/*flex-direction: row;*/
+	    flex-wrap: wrap;
+
+	}
+	.container .box{
+		position: relative;
+		width: 450px;
+		height: 450px;
+		float: left;
+		background:lightgreen;
+		margin: 10px;
+		box-sizing:border-box;
+		display: inline-block;
+	}
+	.container .box .imgBox{
+		position: relative;
+		overflow: hidden;
+	}
+	.container .box .imgBox img{
+		max-width: 180%;
+		transition:transform 1s;
+	}
+	.container .box:hover .imgBox img{
+		transform: scale(1.2);
+	}
+	.container .box .details{
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		bottom: 10px;
+		right: 10px;
+		background:rgba(0,0,0,.8);
+	}
+	.container .box .details .content{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		text-align: center;
+		padding: 10px;
+		color: black;
+
+	}
+	.footer{ text-align: center;
+		color: white;
+		height: 50px;
+		float: bottom;
+		margin-top: 20px;
+
+		background-color:#074404;
+		background-image: linear-gradient(to top ,green ,yellow , blue
+			);
+	}
+	}
+	
+	}
+	
+
+</style>
+<body>
+	<div id="header">
+		<img src="img1.png" style="background-color: lightblue; float: left;
+		height:130px; width: 10%; ">
+	<!-- <H4>(reliable and cost oriented)</H4> -->
+	<h1>DevBaBa !!!</h1>
+	<H4> Kathmandu,Nepal</H4>
+	<!-- <h4>Estd:2004</h4> -->
+	</div>
+	
+	<nav>
+		<a href="index.html">HOME</a>
+		<a href="inquery.html">INQUIRY</a>
+		<a href="offer.html">OFFER</a>
+		<a href="about.html">ABOUT</a>
+		<input type="text" placeholder="Search...">
+	
+</nav>
+<div>
+<div class="offer1">
+	<marquee >
+	<h1 style="text-align: center;">Discount up to 15% </h1>
+	<h4 style="text-align: center;">(product less than Rs.20K)</h4>
+</marquee>
+
+	
+</div>
+<div class="offer2">
+<marquee>
+	<h1 style="text-align: center;"> discount up to 25% </h1>
+	<h4 style="text-align: center;">(product greater than Rs.20k) </h4>
+</marquee>
+	
+</div>
+</div>
+
+
+<div class="container">
+	<div class="box">
+		<div class="imgBox">
+			<img src="mac.jpg">
+		</div>
+		<div class="Details">
+			<div class="content"><h3> MacBook</h3>
+			<p> MacBook Pro reaches new heights in compute performance. The 15‑inch model now features a ninth-generation 8-core Intel Core i9 processor that reaches Turbo Boost speeds up to 5.0GHz. Giving 3D graphics apps like Autodesk Maya 40% faster render speeds compared to the previous generation 6-core processor and up to 2x faster render speeds than a quad-core processor.2 And a new eighth-generation quad‑core processor on the 13‑inch MacBook Pro with Touch Bar makes it ready to take on even the toughest tasks
+			</p></div>
+		</div>
+	</div>
+	<div class="box"><div class="imgBox">
+			<img src="mobileP.jpg">
+		</div>
+		<div class="Details">
+			<div class="content"><h3>Samsung Galaxy J7 Pro</h3>
+			<p>Samsung Galaxy J7 Pro smartphone was launched in June 2017. The phone comes with a 5.50-inch touchscreen display with a resolution of 1080x1920 pixels at a pixel density of 401 pixels per inch (ppi) and an aspect ratio of 16:9.
+			</p></div>
+		</div></div>
+	<div class="box"><div class="imgBox">
+			<img src="samsung.jpg">
+		</div>
+		<div class="Details">
+			<div class="content"><h3>Redmi Note 7</h3>
+			<p>Redmi Note 7 features a 2.2 GHz Qualcomm Snapdragon 660 AIE octa-core processor and 4 GB of RAM which pave the way for seamless gaming or multitasking. It also comes with 64 GB of storage capacity which allows for easy storing of your media files.
+			</p></div>
+		</div></div>
+	<div class="box"><div class="imgBox">
+			<img src="hui.jpg">
+		</div>
+		<div class="Details">
+			<div class="content"><h3>HUAWEI P30 Pro</h3>
+			<p>Huawei P30 Pro is an impressive piece of kit. It has a gorgeous curved screen, flagship Kirin 980 processor, IP68 water and dust resistance, reverse wireless charging, a faster in-display fingerprint scanner, and more. But let's be honest, the P30 Pro is really all about the camera.
+			</p></div>
+		</div>
+	</div>
+</div>	
+	
+
+<div class="footer">
+	<p style="text-align: center;margin-top: -20px;">@copyright:Krishnadev</p>
+	<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+	
+
+</div>
+</body>
+</html>

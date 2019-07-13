@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>inquery</title>
+</head>
+<body>
+	<style type="text/css">
+		*{box-sizing: border-box;
+		}
+		.container{
+			margin: 50px 300px;
+			background-color:skyblue;
+			padding: 15px;
+			border-radius: 4px;
+		}
+		input[type=text]{
+			width: 80%; padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			float: right;
+			box-sizing: border-box;
+			margin-top: 6px;
+			margin-bottom: 6px;
+			resize: vertical;
+		}
+		input[type=submit]{
+			background-color: #d9534f;
+			color: white;
+			padding: 12px 20px;
+			border-color: #d43f3a;
+			border-radius: 4px;
+			cursor: pointer;
+			width: 100%;
+		}
+		input[type=submit]:hover{
+			background-color: green;
+		}
+	</style>
+	<form>
+		<div class="container">
+			<h1>Customer Detail</h1><br>
+			<p style="float: left;">First name </p><input type="text" placeholder="First name" name="name" required>&nbsp&nbsp&nbsp<input type="text" placeholder="Last name" name="name" required><br>
+			<p style="float: left;">Last name </p><input type="text" placeholder="Address" name="address" required><br>
+			<p style="float: left;"> Address </p><input type="text" placeholder="About products" name="address" required><br>
+			
+			<p style="float: left;">Product Name</p><input type="text" placeholder="Detail" name="roll" required><br>
+			<p style="float: left;">CRN</p><input type="text" placeholder="Email" name="address" required><br>
+			<p style="float: left;">Email </p><input type="text" placeholder="Phone Number" name="email" required><br>
+			<p style="float: left;">Phone Number </p>
+			<input style="padding: 20px; margin-top: 10px;" type="submit" value="Submit">
+		</div>
+	</form>
+</body>
+</html>
